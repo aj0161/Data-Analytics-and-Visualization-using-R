@@ -1,22 +1,22 @@
-Data Analytics and Visualization using R
+<strong> Data Analytics and Visualization using R </strong>
 
 The following homeworks are project are implemented using R.
 
-<p>HW1. </p>
+<p><b> HW1.</b></p>
 <p>1. Implement a function that computes the log of the factorial value of an integer using a for loop. Note that implementing it using log(A)+log(B)+ · · · avoids overflow while implementing it as log(A · B · · · · ) creates an overflow early on. </p>
 <p>3. Implement a function that computes the log of the factorial value of an integer using recursion. </p>
 <p>4. Using your two implementations of log-factorial in (2) and (3) above, com- pute the sum of the log-factorials of the integers 1, 2, . . . , N for various N values. </p>
 <p>5. Compare the execution times of your two implementations for (4) with an implementation based on the o cial R function lfactorial(n). You may use the function system.time() to measure execution time. What are the growth rates of the three implementations as N increases? Use the command options(expressions=500000) to increase the number of nested recursions allowed. Compare the timing of the recursion implemen- tation as much as possible, and continue beyond that for the other two implementations. </p>
 
 
-<p>HW 2<p/>
+<p><b>HW 2</b><p/>
 <p>1. Using the mpg data, describe the relationship between highway mpg and car manufacturer. Describe which companies produce the most and least fuel e cient cars, and display a graph supporting your conclusion.<p/>
 <p>2. Using the mpg data, explore the three-way relationship between highway mpg, city mpg, and model class. What are your observations? Display a graph supporting these observations.<p/>
 <p>3. What are the pros and cons of using a histogram vs a box plot? Which one will you prefer for what purpose?<p/>
 <p>4. Generate two sets of N random points using the function runif and dis- play a corresponding scatter plot. If you save the file to disk, what is the resulting file size for the following file formats: ps, pdf, jpeg, png? How do these values scale with increasing N?<p/>
 <p>5. The diamonds dataset within ggplot2 contains 10 columns (price, carat, cut, color, etc.) for 53940 di↵erent diamonds. Type help(diamonds) for more information. Plot histograms for color, carat, and price, and comment on their shapes. Investigate the three-way relationship between price, carat, and cut. What are your conclusions? Provide graphs that support your conclusions. If you encounter computational di culties, consider using a smaller dataframe whose rows are sampled from the original diamonds dataframe. Use the function sample to create a subset of indices that may be used to create the smaller dataframe.<p/>
 
-<p>Project Part 1<p/>
+<p><b>Project Part 1</b><p/>
 
 <p>Data at https://s3.amazonaws.com/content.udacity-data.com/courses/gt-cs6262/project/movies_merged <p/>
 
@@ -42,7 +42,7 @@ Part I of the project involves getting the data ready for analysis and modeling 
 
 <p>8. Come up with two new insights (backed up by the data and graphs) that are expected, and one new insight (backed up by data and graphs) that is unexpected at first glance and do your best to motivate it. By “new” here I mean insights that are not an immediate consequence of one of the above assignments.<p/>
 
-<p>Project Part 2<p/>
+<p><b>Project Part 2</b><p/>
 
 <p>1.Use linear regression to predict profit based on all available numeric variables. Graph the train and test MSE as a function of the train set size (averaged over 10 random data partitions as described above)?<p/>
 
